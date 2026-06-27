@@ -110,8 +110,8 @@ QAFD uses affordable hardware including a Raspberry Pi, camera, and touch-screen
 
 | Test | Result |
 |------|--------|
-| Face Recognition Accuracy | 98% (Prototype Testing) |
-| Average Registration Time | Less than 5 seconds |
+| Face Recognition Accuracy | 90% (Prototype Testing) |
+| Average Registration Time | Less than 10 seconds |
 | Voice Assistant | Successfully guides users in Arabic & English |
 | Raspberry Pi Performance | Successfully tested on Raspberry Pi 3 B+ |
 | Touch Screen Interface | Fully functional |
