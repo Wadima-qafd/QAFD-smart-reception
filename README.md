@@ -1,35 +1,118 @@
-# QAFD-smart-reception
-QAFD is an AI-powered smart hospital reception system that uses facial recognition for fast and accurate patient registration. It reduces waiting times, minimizes manual errors, improves reception efficiency, and supports faster emergency response using Python, OpenCV, and Raspberry Pi.
+# QAFD – Smart Hospital Reception
 
-## Problems
+## Challenge
 
-Hospitals often experience long waiting times during patient registration, especially during peak hours and emergency situations. Manual verification can delay patient care, increase the workload on reception staff, and lead to registration errors. In addition, many elderly patients struggle to use existing self-service registration kiosks, making the check-in process more difficult and less accessible.
+**Challenge 5 – Free Choice: Solve a real problem in your community**
+
+QAFD is an AI-powered smart hospital reception system developed to solve a real healthcare problem by improving patient registration using facial recognition technology.
+
+---
+
+## Problem
+
+Hospitals often experience long waiting times during patient registration, especially during peak hours and emergency situations. Manual verification delays patient care, increases the workload on reception staff, and may lead to registration errors.
+
+Many elderly patients also struggle to use existing self-service registration systems, making the process difficult and less accessible.
+
+---
+
+## Target Users
+
+- Hospital patients
+- Elderly patients
+- Reception staff
+- Healthcare providers
+- Emergency patients
+
+---
+
+## Solution
+
+QAFD is an AI-powered smart reception system that uses facial recognition technology to register patients quickly and accurately.
+
+The system automatically recognizes returning patients, reduces paperwork, and provides an AI-powered bilingual voice assistant (Arabic & English) that guides elderly patients through every step of the registration process.
+
+---
 
 ## Project Impact
 
-- Reduces patient waiting time.
-- Improves hospital reception efficiency.
-- Supports faster emergency response.
-- Reduces manual registration errors.
-- Makes patient registration easier for elderly patients through facial recognition.
-- Provides a voice assistant that guides elderly patients step by step during the registration process.
-- Enhances the overall patient experience.
+- Reduce patient waiting time.
+- Improve hospital reception efficiency.
+- Support faster emergency response.
+- Reduce manual registration errors.
+- Make registration easier for elderly patients.
+- Provide a bilingual voice assistant to guide elderly users.
+- Enhance the overall patient experience.
 
+---
 
-  
 ## Technologies Used
 
-- **Python** – The main programming language used to develop the system.
-- **OpenCV** – Used for image processing and real-time face detection.
-- **face_recognition** – Identifies and verifies patients by comparing facial features.
-- **NumPy** – Processes numerical data and image arrays efficiently.
-- **JSON** – Stores and manages patient information and system data.
-- **Tkinter** – Creates the graphical user interface (GUI) for the registration system.
-- **pyttsx3** – Provides offline voice guidance to assist users, especially elderly patients.
-- **Raspberry Pi 3 B+** – Serves as the main controller that runs the entire system.
-- **Raspberry Pi Camera** – Captures patients' facial images for recognition.
-- **Touch Screen Display** – Allows patients to interact with the smart reception system through an easy-to-use interface.
+| Technology | Purpose |
+|------------|---------|
+| Python | Main programming language |
+| OpenCV | Image processing and face detection |
+| face_recognition | Facial recognition and patient identification |
+| NumPy | Numerical computations |
+| JSON | Data storage |
+| Tkinter | Graphical User Interface (GUI) |
+| pyttsx3 | Offline voice assistant |
+| Raspberry Pi 3 B+ | Main controller |
+| Raspberry Pi Camera | Captures patient facial images |
+| Touch Screen Display | User interaction |
 
-  
-## Project Vision
-Our vision is to transform hospital reception into a faster, smarter, and more efficient experience through artificial intelligence while enhancing the quality of healthcare services.
+---
+
+## Feasibility & Deployment
+
+QAFD uses affordable hardware including a Raspberry Pi, camera, and touch-screen display, making it practical and cost-effective for hospitals and healthcare centers.
+
+---
+
+## Scalability
+
+- Emirates ID integration.
+- Hospital Management System (HMS) integration.
+- Cloud-based patient database.
+- Appointment booking.
+- Deployment across hospitals in the UAE.
+
+---
+
+## How to Run
+
+1. Install Python and all required libraries.
+2. Connect the Raspberry Pi Camera.
+3. Run the application.
+4. Register a patient's face.
+5. Returning patients are automatically recognized.
+
+---
+
+## Evidence & Validation
+
+- Functional working prototype.
+- Face recognition successfully tested.
+- Voice assistant integrated.
+- Raspberry Pi implementation completed.
+- Demonstration video included.
+
+---
+
+## Future Development
+
+- Emirates ID integration.
+- Hospital Management System integration.
+- Cloud database support.
+- Smart Vital Room integration.
+- AI-powered health analytics.
+
+---
+
+## Team
+
+**Developed by**
+
+- Wadima Abdullah Obaid Alderei
+- Hasna Ibrahim Antar Alderei
+
