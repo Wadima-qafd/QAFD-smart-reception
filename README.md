@@ -18,16 +18,18 @@ Hospitals often experience long waiting times during patient registration, espec
 
   
 ## Technologies Used
-- Python
-- OpenCV
-- face_recognition
-- NumPy
-- JSON
-- Tkinter
-- pyttsx3
-- Raspberry Pi 3 B+
-- Raspberry Pi Camera
-- Touch Screen Display
 
+- **Python** – The main programming language used to develop the system.
+- **OpenCV** – Used for image processing and real-time face detection.
+- **face_recognition** – Identifies and verifies patients by comparing facial features.
+- **NumPy** – Processes numerical data and image arrays efficiently.
+- **JSON** – Stores and manages patient information and system data.
+- **Tkinter** – Creates the graphical user interface (GUI) for the registration system.
+- **pyttsx3** – Provides offline voice guidance to assist users, especially elderly patients.
+- **Raspberry Pi 3 B+** – Serves as the main controller that runs the entire system.
+- **Raspberry Pi Camera** – Captures patients' facial images for recognition.
+- **Touch Screen Display** – Allows patients to interact with the smart reception system through an easy-to-use interface.
+
+  
 ## Project Vision
 Our vision is to transform hospital reception into a faster, smarter, and more efficient experience through artificial intelligence while enhancing the quality of healthcare services.
